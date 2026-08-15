@@ -1,6 +1,6 @@
 # SmartBin
 
-SmartBin is an IoT smart-waste-bin system: an ultrasonic sensor on the bin reports fill level to a backend, and a mobile app lets users check bin status and (eventually) pay for collection via M-Pesa. The repo has three parts that talk to each other over HTttTP:
+SmartBin is an IoT smart-waste-bin system: an ultrasonic sensor on the bin reports fill level to a backend, and a mobile app lets users check bin status and (eventually) pay for collection via M-Pesa. The repo has three parts that talk to each other over HTTP:
 
 ```
 ESP32 (firmware)  --HTTP POST-->  Django (backend/API)  <--HTTP-->  App (Flutter)
