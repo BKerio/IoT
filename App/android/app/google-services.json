@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "186346431545",
+    "project_id": "smartbin-a714d",
+    "storage_bucket": "smartbin-a714d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186346431545:android:fe5dfef7d5f19d6e0c99e8",
+        "android_client_info": {
+          "package_name": "com.example.kanisaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmyb12sT33icGi81Pyg60HnkvUXhTXZJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
