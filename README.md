@@ -1,4 +1,4 @@
-# SmartBin
+# SmartBin (Uber for Smart Bins)
 
 SmartBin is an IoT smart-waste-bin system: an ultrasonic sensor on the bin reports fill level to a backend, and a mobile app lets users check bin status and (eventually) pay for collection via M-Pesa. The repo has three parts that talk to each other over HTTP:
 
