@@ -5,7 +5,7 @@ SmartBin is an IoT smart-waste-bin system: an ultrasonic sensor on the bin repor
 ```
 ESP32 (firmware)  --HTTP POST-->  Django (backend/API)  <--HTTP-->  App (Flutter)
    sensor.cpp            /api/bins/readings                bin_status.dart / dashboard.dart
-   mpesa.cpp              /api/users/*           jj            login.dart / member_onboard.dart
+   mpesa.cpp              /api/users/*                       login.dart / member_onboard.dart
 ```
 
 - **[ESP32/](ESP32/)** — C++ firmware for the physical bin unit: reads the ultrasonic sensor and posts readings to Django; a separate keypad+LCD sketch drives an M-Pesa STK push flow.
