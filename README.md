@@ -21,7 +21,7 @@ Data flows one way for sensing (device → backend → app polls it) and the app
 ### [ESP32/](ESP32/)
 Arduino/C++ firmware, meant to be opened in the Arduino IDE or PlatformIO (no build config is checked in yet).
 
-| File | Purpose |
+| File | Purpose |ii
 |---|---|
 | [sensor.cpp](ESP32/sensor.cpp) | Reads distance from an ultrasonic sensor (TRIG on GPIO5, ECHO on GPIO18), computes it every loop, and `POST`s `{device_id, distance_cm}` to `/api/bins/readings` every 5s over Wi-Fi. Authenticates with an `X-Device-Key` header that must match Django's `DEVICE_API_KEY`. |
 | [mpesa.cpp](ESP32/mpesa.cpp) | Drives a 4x3 keypad + 16x2 I2C LCD to collect a phone number and amount, triggers an STK push against a separate payments API (`/api/stkpush`, port 5000 — not part of this repo), and polls `/api/stkpush/status/<id>` until the payment resolves. |
